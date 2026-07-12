@@ -1,0 +1,2918 @@
+{
+  "platform_counts": {
+    "swiggy": {
+      "LinkedIn": 129,
+      "Reddit": 319,
+      "Twitter/X": 1100
+    },
+    "zomato": {
+      "LinkedIn": 89,
+      "Reddit": 239,
+      "Twitter/X": 819
+    }
+  },
+  "kpis": {
+    "swiggy": {
+      "total_posts": 1548,
+      "complaint_posts": 1548,
+      "escalation_posts": 192,
+      "negative_posts": 1231
+    },
+    "zomato": {
+      "total_posts": 1147,
+      "complaint_posts": 1147,
+      "escalation_posts": 123,
+      "negative_posts": 920
+    }
+  },
+  "monthly_trend": {
+    "swiggy": {
+      "by_month": {
+        "April": {
+          "total": 465,
+          "bucket_counts": {
+            "A. Cancellation": 86,
+            "B. AI/Bot Related": 66,
+            "C. Customer Care": 44,
+            "D. Delay Related": 79,
+            "E. Food Quality": 55,
+            "F. Delivery Executive": 31,
+            "G. Payment/Coupon": 49,
+            "H. Price/Fee": 31,
+            "I. Other/Emerging": 24
+          },
+          "bucket_pct": {
+            "A. Cancellation": 18.5,
+            "B. AI/Bot Related": 14.2,
+            "C. Customer Care": 9.5,
+            "D. Delay Related": 17.0,
+            "E. Food Quality": 11.8,
+            "F. Delivery Executive": 6.7,
+            "G. Payment/Coupon": 10.5,
+            "H. Price/Fee": 6.7,
+            "I. Other/Emerging": 5.2
+          },
+          "mom_total_pct": null,
+          "mom_bucket_pct": {
+            "A. Cancellation": null,
+            "B. AI/Bot Related": null,
+            "C. Customer Care": null,
+            "D. Delay Related": null,
+            "E. Food Quality": null,
+            "F. Delivery Executive": null,
+            "G. Payment/Coupon": null,
+            "H. Price/Fee": null,
+            "I. Other/Emerging": null
+          },
+          "complaints": 465,
+          "escalations": 57,
+          "sentiment_neg": 377
+        },
+        "May": {
+          "total": 510,
+          "bucket_counts": {
+            "A. Cancellation": 86,
+            "B. AI/Bot Related": 42,
+            "C. Customer Care": 70,
+            "D. Delay Related": 90,
+            "E. Food Quality": 66,
+            "F. Delivery Executive": 46,
+            "G. Payment/Coupon": 49,
+            "H. Price/Fee": 32,
+            "I. Other/Emerging": 29
+          },
+          "bucket_pct": {
+            "A. Cancellation": 16.9,
+            "B. AI/Bot Related": 8.2,
+            "C. Customer Care": 13.7,
+            "D. Delay Related": 17.6,
+            "E. Food Quality": 12.9,
+            "F. Delivery Executive": 9.0,
+            "G. Payment/Coupon": 9.6,
+            "H. Price/Fee": 6.3,
+            "I. Other/Emerging": 5.7
+          },
+          "mom_total_pct": 9.7,
+          "mom_bucket_pct": {
+            "A. Cancellation": 0.0,
+            "B. AI/Bot Related": -36.4,
+            "C. Customer Care": 59.1,
+            "D. Delay Related": 13.9,
+            "E. Food Quality": 20.0,
+            "F. Delivery Executive": 48.4,
+            "G. Payment/Coupon": 0.0,
+            "H. Price/Fee": 3.2,
+            "I. Other/Emerging": 20.8
+          },
+          "complaints": 510,
+          "escalations": 59,
+          "sentiment_neg": 407
+        },
+        "June": {
+          "total": 573,
+          "bucket_counts": {
+            "A. Cancellation": 91,
+            "B. AI/Bot Related": 63,
+            "C. Customer Care": 65,
+            "D. Delay Related": 102,
+            "E. Food Quality": 64,
+            "F. Delivery Executive": 53,
+            "G. Payment/Coupon": 60,
+            "H. Price/Fee": 35,
+            "I. Other/Emerging": 40
+          },
+          "bucket_pct": {
+            "A. Cancellation": 15.9,
+            "B. AI/Bot Related": 11.0,
+            "C. Customer Care": 11.3,
+            "D. Delay Related": 17.8,
+            "E. Food Quality": 11.2,
+            "F. Delivery Executive": 9.2,
+            "G. Payment/Coupon": 10.5,
+            "H. Price/Fee": 6.1,
+            "I. Other/Emerging": 7.0
+          },
+          "mom_total_pct": 12.4,
+          "mom_bucket_pct": {
+            "A. Cancellation": 5.8,
+            "B. AI/Bot Related": 50.0,
+            "C. Customer Care": -7.1,
+            "D. Delay Related": 13.3,
+            "E. Food Quality": -3.0,
+            "F. Delivery Executive": 15.2,
+            "G. Payment/Coupon": 22.4,
+            "H. Price/Fee": 9.4,
+            "I. Other/Emerging": 37.9
+          },
+          "complaints": 573,
+          "escalations": 76,
+          "sentiment_neg": 447
+        }
+      },
+      "biggest_increase": "D. Delay Related",
+      "biggest_decrease": "B. AI/Bot Related"
+    },
+    "zomato": {
+      "by_month": {
+        "April": {
+          "total": 345,
+          "bucket_counts": {
+            "A. Cancellation": 51,
+            "B. AI/Bot Related": 31,
+            "C. Customer Care": 56,
+            "D. Delay Related": 56,
+            "E. Food Quality": 50,
+            "F. Delivery Executive": 31,
+            "G. Payment/Coupon": 35,
+            "H. Price/Fee": 18,
+            "I. Other/Emerging": 17
+          },
+          "bucket_pct": {
+            "A. Cancellation": 14.8,
+            "B. AI/Bot Related": 9.0,
+            "C. Customer Care": 16.2,
+            "D. Delay Related": 16.2,
+            "E. Food Quality": 14.5,
+            "F. Delivery Executive": 9.0,
+            "G. Payment/Coupon": 10.1,
+            "H. Price/Fee": 5.2,
+            "I. Other/Emerging": 4.9
+          },
+          "mom_total_pct": null,
+          "mom_bucket_pct": {
+            "A. Cancellation": null,
+            "B. AI/Bot Related": null,
+            "C. Customer Care": null,
+            "D. Delay Related": null,
+            "E. Food Quality": null,
+            "F. Delivery Executive": null,
+            "G. Payment/Coupon": null,
+            "H. Price/Fee": null,
+            "I. Other/Emerging": null
+          },
+          "complaints": 345,
+          "escalations": 39,
+          "sentiment_neg": 272
+        },
+        "May": {
+          "total": 378,
+          "bucket_counts": {
+            "A. Cancellation": 65,
+            "B. AI/Bot Related": 23,
+            "C. Customer Care": 54,
+            "D. Delay Related": 66,
+            "E. Food Quality": 59,
+            "F. Delivery Executive": 39,
+            "G. Payment/Coupon": 36,
+            "H. Price/Fee": 20,
+            "I. Other/Emerging": 16
+          },
+          "bucket_pct": {
+            "A. Cancellation": 17.2,
+            "B. AI/Bot Related": 6.1,
+            "C. Customer Care": 14.3,
+            "D. Delay Related": 17.5,
+            "E. Food Quality": 15.6,
+            "F. Delivery Executive": 10.3,
+            "G. Payment/Coupon": 9.5,
+            "H. Price/Fee": 5.3,
+            "I. Other/Emerging": 4.2
+          },
+          "mom_total_pct": 9.6,
+          "mom_bucket_pct": {
+            "A. Cancellation": 27.5,
+            "B. AI/Bot Related": -25.8,
+            "C. Customer Care": -3.6,
+            "D. Delay Related": 17.9,
+            "E. Food Quality": 18.0,
+            "F. Delivery Executive": 25.8,
+            "G. Payment/Coupon": 2.9,
+            "H. Price/Fee": 11.1,
+            "I. Other/Emerging": -5.9
+          },
+          "complaints": 378,
+          "escalations": 39,
+          "sentiment_neg": 304
+        },
+        "June": {
+          "total": 424,
+          "bucket_counts": {
+            "A. Cancellation": 83,
+            "B. AI/Bot Related": 38,
+            "C. Customer Care": 47,
+            "D. Delay Related": 80,
+            "E. Food Quality": 44,
+            "F. Delivery Executive": 51,
+            "G. Payment/Coupon": 40,
+            "H. Price/Fee": 18,
+            "I. Other/Emerging": 23
+          },
+          "bucket_pct": {
+            "A. Cancellation": 19.6,
+            "B. AI/Bot Related": 9.0,
+            "C. Customer Care": 11.1,
+            "D. Delay Related": 18.9,
+            "E. Food Quality": 10.4,
+            "F. Delivery Executive": 12.0,
+            "G. Payment/Coupon": 9.4,
+            "H. Price/Fee": 4.2,
+            "I. Other/Emerging": 5.4
+          },
+          "mom_total_pct": 12.2,
+          "mom_bucket_pct": {
+            "A. Cancellation": 27.7,
+            "B. AI/Bot Related": 65.2,
+            "C. Customer Care": -13.0,
+            "D. Delay Related": 21.2,
+            "E. Food Quality": -25.4,
+            "F. Delivery Executive": 30.8,
+            "G. Payment/Coupon": 11.1,
+            "H. Price/Fee": -10.0,
+            "I. Other/Emerging": 43.8
+          },
+          "complaints": 424,
+          "escalations": 45,
+          "sentiment_neg": 344
+        }
+      },
+      "biggest_increase": "A. Cancellation",
+      "biggest_decrease": "C. Customer Care"
+    }
+  },
+  "bucket_analysis": {
+    "swiggy": {
+      "A. Cancellation": {
+        "count": 263,
+        "share": 17.0,
+        "trend": {
+          "April": 86,
+          "May": 86,
+          "June": 91
+        },
+        "examples": [
+          {
+            "text": "Order ID 850537 was auto-cancelled by Swiggy. No notification, money still deducted. Fix this!",
+            "platform": "Twitter/X",
+            "date": "2026-06-07 19:53:00",
+            "engagement": 301,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/92fd6b1a"
+          },
+          {
+            "text": "Third time Swiggy auto-cancelled my order at the last minute. Terrible experience.",
+            "platform": "Twitter/X",
+            "date": "2026-04-26 11:04:00",
+            "engagement": 288,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/08eb3e07"
+          },
+          {
+            "text": "Swiggy cancelled my order after the restaurant confirmed it. What is happening?",
+            "platform": "Twitter/X",
+            "date": "2026-05-30 12:06:00",
+            "engagement": 287,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/fe50ec97"
+          },
+          {
+            "text": "@Swiggy my order was cancelled without any reason after waiting 40 minutes. No refund yet! #FoodDelivery",
+            "platform": "Twitter/X",
+            "date": "2026-06-03 17:11:00",
+            "engagement": 286,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/7d9584d7"
+          },
+          {
+            "text": "Order ID 506968 was auto-cancelled by Swiggy. No notification, money still deducted. Fix this!",
+            "platform": "Twitter/X",
+            "date": "2026-06-15 12:20:00",
+            "engagement": 280,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/5f8dbad1"
+          },
+          {
+            "text": "Swiggy cancellation issue is getting worse every week. Twice in the last 3 days.",
+            "platform": "Twitter/X",
+            "date": "2026-04-03 11:17:00",
+            "engagement": 276,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/c5f35643"
+          },
+          {
+            "text": "Swiggy cancelled my order after the restaurant confirmed it. What is happening?",
+            "platform": "Twitter/X",
+            "date": "2026-06-15 12:28:00",
+            "engagement": 268,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/3411bebc"
+          },
+          {
+            "text": "Order ID 303322 was auto-cancelled by Swiggy. No notification, money still deducted. Fix this!",
+            "platform": "Twitter/X",
+            "date": "2026-04-27 11:15:00",
+            "engagement": 264,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/68837336"
+          }
+        ]
+      },
+      "B. AI/Bot Related": {
+        "count": 171,
+        "share": 11.0,
+        "trend": {
+          "April": 66,
+          "May": 42,
+          "June": 63
+        },
+        "examples": [
+          {
+            "text": "Swiggy AI support gave me the same automated response 5 times. There is no way to reach a real person.",
+            "platform": "Twitter/X",
+            "date": "2026-06-17 15:08:00",
+            "engagement": 272,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/c6d13ded"
+          },
+          {
+            "text": "@Swiggy your AI assistant is a joke. It cannot solve even basic issues. Please provide human support.",
+            "platform": "Twitter/X",
+            "date": "2026-05-09 21:11:00",
+            "engagement": 262,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/31ef1716"
+          },
+          {
+            "text": "@Swiggy your chatbot is absolutely useless. It keeps looping me in circles and won't connect to a human agent!",
+            "platform": "Twitter/X",
+            "date": "2026-05-09 20:05:00",
+            "engagement": 251,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/772d38df"
+          },
+          {
+            "text": "Swiggy AI support gave me the same automated response 5 times. There is no way to reach a real person.",
+            "platform": "Twitter/X",
+            "date": "2026-06-03 09:35:00",
+            "engagement": 247,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/2e2b62ed"
+          },
+          {
+            "text": "@Swiggy your chatbot is absolutely useless. It keeps looping me in circles and won't connect to a human agent!",
+            "platform": "Twitter/X",
+            "date": "2026-05-11 14:34:00",
+            "engagement": 243,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/9db94fe4"
+          },
+          {
+            "text": "@Swiggy your AI assistant is a joke. It cannot solve even basic issues. Please provide human support.",
+            "platform": "Twitter/X",
+            "date": "2026-06-06 21:48:00",
+            "engagement": 241,
+            "sentiment": "Positive",
+            "url": "https://twitterx.com/example/2e13b585"
+          },
+          {
+            "text": "@Swiggy your AI assistant is a joke. It cannot solve even basic issues. Please provide human support.",
+            "platform": "Twitter/X",
+            "date": "2026-05-08 08:08:00",
+            "engagement": 236,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/265a4777"
+          },
+          {
+            "text": "Swiggy AI support gave me the same automated response 5 times. There is no way to reach a real person.",
+            "platform": "Twitter/X",
+            "date": "2026-06-27 11:32:00",
+            "engagement": 234,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/6566507a"
+          }
+        ]
+      },
+      "C. Customer Care": {
+        "count": 179,
+        "share": 11.6,
+        "trend": {
+          "April": 44,
+          "May": 70,
+          "June": 65
+        },
+        "examples": [
+          {
+            "text": "The Swiggy support executive was extremely rude and disconnected my call when I asked for a supervisor.",
+            "platform": "Twitter/X",
+            "date": "2026-05-22 09:16:00",
+            "engagement": 286,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/47687e97"
+          },
+          {
+            "text": "Swiggy escalated my ticket to 3 different agents and none of them could process my refund.",
+            "platform": "Twitter/X",
+            "date": "2026-05-25 22:14:00",
+            "engagement": 271,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/afbfe9b6"
+          },
+          {
+            "text": "@Swiggy it has been 5 days and I still have not received a callback. Your customer service is broken.",
+            "platform": "Twitter/X",
+            "date": "2026-06-14 22:44:00",
+            "engagement": 267,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/b1076b1d"
+          },
+          {
+            "text": "@Swiggy it has been 5 days and I still have not received a callback. Your customer service is broken.",
+            "platform": "Twitter/X",
+            "date": "2026-05-31 09:47:00",
+            "engagement": 262,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/c9adaafc"
+          },
+          {
+            "text": "Worst customer care experience ever with Swiggy. Agent kept putting me on hold for 20 minutes then hung up.",
+            "platform": "Twitter/X",
+            "date": "2026-06-19 22:02:00",
+            "engagement": 259,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/45d94ad1"
+          },
+          {
+            "text": "Swiggy escalated my ticket to 3 different agents and none of them could process my refund.",
+            "platform": "Twitter/X",
+            "date": "2026-04-26 19:22:00",
+            "engagement": 259,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/11cc01a5"
+          },
+          {
+            "text": "Swiggy customer care said they would resolve my issue in 24 hours. It has now been 72 hours. Nothing.",
+            "platform": "Twitter/X",
+            "date": "2026-04-27 20:16:00",
+            "engagement": 259,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/722de6e4"
+          },
+          {
+            "text": "Swiggy customer care said they would resolve my issue in 24 hours. It has now been 72 hours. Nothing.",
+            "platform": "Twitter/X",
+            "date": "2026-06-27 22:24:00",
+            "engagement": 258,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/bbff230d"
+          }
+        ]
+      },
+      "D. Delay Related": {
+        "count": 271,
+        "share": 17.5,
+        "trend": {
+          "April": 79,
+          "May": 90,
+          "June": 102
+        },
+        "examples": [
+          {
+            "text": "Swiggy shows restaurant preparation time of 5 minutes but it has been 50 minutes. No update.",
+            "platform": "Twitter/X",
+            "date": "2026-04-09 21:04:00",
+            "engagement": 293,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/a546f59d"
+          },
+          {
+            "text": "Swiggy shows restaurant preparation time of 5 minutes but it has been 50 minutes. No update.",
+            "platform": "Twitter/X",
+            "date": "2026-06-21 09:12:00",
+            "engagement": 271,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/504cdb97"
+          },
+          {
+            "text": "Order from Swiggy was supposed to arrive in 30 minutes. It is now 2 hours and still waiting.",
+            "platform": "Twitter/X",
+            "date": "2026-04-03 17:38:00",
+            "engagement": 268,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/d7b7d63b"
+          },
+          {
+            "text": "Swiggy shows restaurant preparation time of 5 minutes but it has been 50 minutes. No update.",
+            "platform": "Twitter/X",
+            "date": "2026-05-21 22:37:00",
+            "engagement": 265,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/7031ff9b"
+          },
+          {
+            "text": "Ordered food on Swiggy for lunch. Still waiting at 3pm. Order placed at 12:30. This is ridiculous.",
+            "platform": "Twitter/X",
+            "date": "2026-05-01 23:55:00",
+            "engagement": 254,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/d4e747ed"
+          },
+          {
+            "text": "My Swiggy order ETA has changed 4 times in the last hour. Zero communication from the app.",
+            "platform": "Twitter/X",
+            "date": "2026-06-13 21:47:00",
+            "engagement": 253,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/830953f7"
+          },
+          {
+            "text": "Order from Swiggy was supposed to arrive in 30 minutes. It is now 2 hours and still waiting.",
+            "platform": "Twitter/X",
+            "date": "2026-05-17 09:15:00",
+            "engagement": 250,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/4fcfc931"
+          },
+          {
+            "text": "Swiggy shows restaurant preparation time of 5 minutes but it has been 50 minutes. No update.",
+            "platform": "Twitter/X",
+            "date": "2026-05-10 08:57:00",
+            "engagement": 249,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/071927d8"
+          }
+        ]
+      },
+      "E. Food Quality": {
+        "count": 185,
+        "share": 12.0,
+        "trend": {
+          "April": 55,
+          "May": 66,
+          "June": 64
+        },
+        "examples": [
+          {
+            "text": "@Swiggy they delivered completely wrong items. I ordered paneer but got chicken. Unacceptable!",
+            "platform": "Twitter/X",
+            "date": "2026-04-16 18:58:00",
+            "engagement": 275,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/b108d250"
+          },
+          {
+            "text": "Swiggy delivered veg as non-veg. This is a religious and dietary violation. Extremely upset.",
+            "platform": "Twitter/X",
+            "date": "2026-05-09 15:37:00",
+            "engagement": 274,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/50c1d59a"
+          },
+          {
+            "text": "Missing items in my Swiggy order again. Half my food was not delivered and the rest was cold.",
+            "platform": "Twitter/X",
+            "date": "2026-05-14 15:40:00",
+            "engagement": 273,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/8eef1fc6"
+          },
+          {
+            "text": "Food from Swiggy was completely cold and the packaging was damaged. Clearly tampered with.",
+            "platform": "Twitter/X",
+            "date": "2026-06-25 16:38:00",
+            "engagement": 270,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/96982433"
+          },
+          {
+            "text": "Swiggy delivered veg as non-veg. This is a religious and dietary violation. Extremely upset.",
+            "platform": "Twitter/X",
+            "date": "2026-05-19 11:06:00",
+            "engagement": 267,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/ae46a709"
+          },
+          {
+            "text": "Food from Swiggy was completely cold and the packaging was damaged. Clearly tampered with.",
+            "platform": "Twitter/X",
+            "date": "2026-06-16 15:23:00",
+            "engagement": 266,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/47153e92"
+          },
+          {
+            "text": "Hair found in food delivered by Swiggy. Complained immediately, no action taken.",
+            "platform": "Twitter/X",
+            "date": "2026-06-04 20:46:00",
+            "engagement": 264,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/6d34268f"
+          },
+          {
+            "text": "@Swiggy they delivered completely wrong items. I ordered paneer but got chicken. Unacceptable!",
+            "platform": "Twitter/X",
+            "date": "2026-06-20 09:09:00",
+            "engagement": 262,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/60bbe736"
+          }
+        ]
+      },
+      "F. Delivery Executive": {
+        "count": 130,
+        "share": 8.4,
+        "trend": {
+          "April": 31,
+          "May": 46,
+          "June": 53
+        },
+        "examples": [
+          {
+            "text": "@Swiggy the delivery executive was rude and demanded extra tip. When I refused he left the food outside.",
+            "platform": "Twitter/X",
+            "date": "2026-05-29 09:15:00",
+            "engagement": 256,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/3a3abd63"
+          },
+          {
+            "text": "Swiggy delivery partner marked order as delivered but never came to my building. Fake delivery!",
+            "platform": "Twitter/X",
+            "date": "2026-04-29 08:33:00",
+            "engagement": 249,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/fe2138af"
+          },
+          {
+            "text": "@Swiggy the delivery executive was rude and demanded extra tip. When I refused he left the food outside.",
+            "platform": "Twitter/X",
+            "date": "2026-06-08 21:41:00",
+            "engagement": 246,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/6fb00c6c"
+          },
+          {
+            "text": "Swiggy delivery guy tampered with my sealed food bag. This is unacceptable.",
+            "platform": "Twitter/X",
+            "date": "2026-06-15 12:32:00",
+            "engagement": 242,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/938999f2"
+          },
+          {
+            "text": "Swiggy delivery guy tampered with my sealed food bag. This is unacceptable.",
+            "platform": "Twitter/X",
+            "date": "2026-04-26 21:31:00",
+            "engagement": 240,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/89778aaa"
+          },
+          {
+            "text": "The Swiggy delivery executive asked me to come 500 meters outside to collect my order. I paid for delivery!",
+            "platform": "Twitter/X",
+            "date": "2026-06-17 10:17:00",
+            "engagement": 233,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/0c7de2ad"
+          },
+          {
+            "text": "Swiggy delivery guy tampered with my sealed food bag. This is unacceptable.",
+            "platform": "Twitter/X",
+            "date": "2026-06-03 08:22:00",
+            "engagement": 232,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/9c056e2d"
+          },
+          {
+            "text": "@Swiggy rider was extremely rude, used abusive language when I asked why he was late.",
+            "platform": "Twitter/X",
+            "date": "2026-06-22 20:24:00",
+            "engagement": 232,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/9e8f0924"
+          }
+        ]
+      },
+      "G. Payment/Coupon": {
+        "count": 158,
+        "share": 10.2,
+        "trend": {
+          "April": 49,
+          "May": 49,
+          "June": 60
+        },
+        "examples": [
+          {
+            "text": "@Swiggy double charged me and my bank confirms 2 deductions. Need immediate refund.",
+            "platform": "Twitter/X",
+            "date": "2026-04-12 16:48:00",
+            "engagement": 273,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/688b562e"
+          },
+          {
+            "text": "Applied a 50% coupon on Swiggy and it showed discount on screen but full amount was charged.",
+            "platform": "Twitter/X",
+            "date": "2026-05-18 20:59:00",
+            "engagement": 266,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/670a86c4"
+          },
+          {
+            "text": "@Swiggy my cashback never reflected. Order from 10 days ago. No response from support.",
+            "platform": "Twitter/X",
+            "date": "2026-04-15 07:23:00",
+            "engagement": 257,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/3fe56613"
+          },
+          {
+            "text": "Applied a 50% coupon on Swiggy and it showed discount on screen but full amount was charged.",
+            "platform": "Twitter/X",
+            "date": "2026-05-23 12:20:00",
+            "engagement": 254,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/4992d24b"
+          },
+          {
+            "text": "Swiggy wallet money deducted but order was cancelled. Balance not restored.",
+            "platform": "Twitter/X",
+            "date": "2026-04-05 23:14:00",
+            "engagement": 253,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/8b1ab895"
+          },
+          {
+            "text": "@Swiggy my cashback never reflected. Order from 10 days ago. No response from support.",
+            "platform": "Twitter/X",
+            "date": "2026-06-24 23:44:00",
+            "engagement": 248,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/a6f43b88"
+          },
+          {
+            "text": "Applied a 50% coupon on Swiggy and it showed discount on screen but full amount was charged.",
+            "platform": "Twitter/X",
+            "date": "2026-05-23 10:27:00",
+            "engagement": 245,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/3bbd26e9"
+          },
+          {
+            "text": "Applied a 50% coupon on Swiggy and it showed discount on screen but full amount was charged.",
+            "platform": "Twitter/X",
+            "date": "2026-04-09 18:29:00",
+            "engagement": 232,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/f4ca5891"
+          }
+        ]
+      },
+      "H. Price/Fee": {
+        "count": 98,
+        "share": 6.3,
+        "trend": {
+          "April": 31,
+          "May": 32,
+          "June": 35
+        },
+        "examples": [
+          {
+            "text": "The surge pricing on Swiggy during evenings is outrageous. Same item costs 30% more after 7pm.",
+            "platform": "Twitter/X",
+            "date": "2026-05-12 18:26:00",
+            "engagement": 262,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/d3059db2"
+          },
+          {
+            "text": "Swiggy price shown on menu is different from what is charged at checkout. Hidden charges!",
+            "platform": "Twitter/X",
+            "date": "2026-05-10 17:52:00",
+            "engagement": 248,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/87a7d3b1"
+          },
+          {
+            "text": "@Swiggy please explain why there is a Rs 10 handling fee on top of delivery fee and platform fee?",
+            "platform": "Twitter/X",
+            "date": "2026-06-10 18:49:00",
+            "engagement": 247,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/3fad15d9"
+          },
+          {
+            "text": "@Swiggy please explain why there is a Rs 10 handling fee on top of delivery fee and platform fee?",
+            "platform": "Twitter/X",
+            "date": "2026-05-22 11:10:00",
+            "engagement": 238,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/5020f4d4"
+          },
+          {
+            "text": "The surge pricing on Swiggy during evenings is outrageous. Same item costs 30% more after 7pm.",
+            "platform": "Twitter/X",
+            "date": "2026-06-20 10:57:00",
+            "engagement": 233,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/db4bd380"
+          },
+          {
+            "text": "@Swiggy the platform fee has increased from Rs 3 to Rs 6 in just 2 months. Stop looting customers.",
+            "platform": "Twitter/X",
+            "date": "2026-04-26 23:02:00",
+            "engagement": 232,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/822373f6"
+          },
+          {
+            "text": "Swiggy is charging a rain surcharge but it is not even raining. Hidden charges everywhere.",
+            "platform": "Twitter/X",
+            "date": "2026-05-09 22:40:00",
+            "engagement": 226,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/00e265b5"
+          },
+          {
+            "text": "@Swiggy please explain why there is a Rs 10 handling fee on top of delivery fee and platform fee?",
+            "platform": "Twitter/X",
+            "date": "2026-06-29 16:37:00",
+            "engagement": 226,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/6b9c9421"
+          }
+        ]
+      },
+      "I. Other/Emerging": {
+        "count": 93,
+        "share": 6.0,
+        "trend": {
+          "April": 24,
+          "May": 29,
+          "June": 40
+        },
+        "examples": [
+          {
+            "text": "Swiggy pushed 8 promotional notifications today. Please give users the option to opt out.",
+            "platform": "Twitter/X",
+            "date": "2026-05-27 21:06:00",
+            "engagement": 288,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/a03624db"
+          },
+          {
+            "text": "Dark pattern on Swiggy app — I accidentally bought a subscription I did not want.",
+            "platform": "Twitter/X",
+            "date": "2026-04-01 17:50:00",
+            "engagement": 261,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/20a8677a"
+          },
+          {
+            "text": "Dark pattern on Swiggy app — I accidentally bought a subscription I did not want.",
+            "platform": "Twitter/X",
+            "date": "2026-06-09 19:41:00",
+            "engagement": 244,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/1faa9ffe"
+          },
+          {
+            "text": "The Swiggy app does not work on my Android device after the latest update.",
+            "platform": "Twitter/X",
+            "date": "2026-06-10 13:05:00",
+            "engagement": 238,
+            "sentiment": "Positive",
+            "url": "https://twitterx.com/example/3387ce59"
+          },
+          {
+            "text": "Swiggy pushed 8 promotional notifications today. Please give users the option to opt out.",
+            "platform": "Twitter/X",
+            "date": "2026-04-02 18:41:00",
+            "engagement": 237,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/8fa11e66"
+          },
+          {
+            "text": "@Swiggy the app keeps crashing when I try to track my order. Very buggy.",
+            "platform": "Twitter/X",
+            "date": "2026-06-15 09:54:00",
+            "engagement": 230,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/ecee6ecc"
+          },
+          {
+            "text": "@Swiggy restaurant listed as open but not accepting orders. Stop showing ghost restaurants.",
+            "platform": "Twitter/X",
+            "date": "2026-04-27 12:49:00",
+            "engagement": 229,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/1771a097"
+          },
+          {
+            "text": "Swiggy pushed 8 promotional notifications today. Please give users the option to opt out.",
+            "platform": "Twitter/X",
+            "date": "2026-05-03 07:00:00",
+            "engagement": 220,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/de1778a1"
+          }
+        ]
+      }
+    },
+    "zomato": {
+      "A. Cancellation": {
+        "count": 199,
+        "share": 17.3,
+        "trend": {
+          "April": 51,
+          "May": 65,
+          "June": 83
+        },
+        "examples": [
+          {
+            "text": "Restaurant on Zomato cancelled my food order on a Saturday night. Ordered at 9pm, cancelled at 9:30. Zero accountability.",
+            "platform": "Twitter/X",
+            "date": "2026-04-13 16:15:00",
+            "engagement": 267,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/04308be7"
+          },
+          {
+            "text": "Restaurant on Zomato cancelled my food order on a Saturday night. Ordered at 9pm, cancelled at 9:30. Zero accountability.",
+            "platform": "Twitter/X",
+            "date": "2026-05-15 08:59:00",
+            "engagement": 263,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/60413dbe"
+          },
+          {
+            "text": "@Zomato my order was cancelled without any reason after waiting 40 minutes. No refund yet! #FoodDelivery",
+            "platform": "Twitter/X",
+            "date": "2026-06-03 09:50:00",
+            "engagement": 260,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/0436efd3"
+          },
+          {
+            "text": "Zomato cancelled my order after the restaurant confirmed it. What is happening?",
+            "platform": "Twitter/X",
+            "date": "2026-06-09 09:59:00",
+            "engagement": 260,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/a6823b89"
+          },
+          {
+            "text": "Restaurant on Zomato cancelled my food order on a Saturday night. Ordered at 9pm, cancelled at 9:30. Zero accountability.",
+            "platform": "Twitter/X",
+            "date": "2026-04-20 13:58:00",
+            "engagement": 254,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/50d9d1f9"
+          },
+          {
+            "text": "Restaurant on Zomato cancelled my food order on a Saturday night. Ordered at 9pm, cancelled at 9:30. Zero accountability.",
+            "platform": "Twitter/X",
+            "date": "2026-06-13 09:23:00",
+            "engagement": 253,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/4ff1d9f1"
+          },
+          {
+            "text": "Zomato cancelled my order after the restaurant confirmed it. What is happening?",
+            "platform": "Twitter/X",
+            "date": "2026-06-13 15:28:00",
+            "engagement": 253,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/fd059474"
+          },
+          {
+            "text": "Third time Zomato auto-cancelled my order at the last minute. Terrible experience.",
+            "platform": "Twitter/X",
+            "date": "2026-06-22 11:13:00",
+            "engagement": 248,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/45c67346"
+          }
+        ]
+      },
+      "B. AI/Bot Related": {
+        "count": 92,
+        "share": 8.0,
+        "trend": {
+          "April": 31,
+          "May": 23,
+          "June": 38
+        },
+        "examples": [
+          {
+            "text": "@Zomato your chatbot is absolutely useless. It keeps looping me in circles and won't connect to a human agent!",
+            "platform": "Twitter/X",
+            "date": "2026-06-28 07:10:00",
+            "engagement": 277,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/1035c7df"
+          },
+          {
+            "text": "@Zomato your AI assistant is a joke. It cannot solve even basic issues. Please provide human support.",
+            "platform": "Twitter/X",
+            "date": "2026-06-20 15:10:00",
+            "engagement": 269,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/43dd92ba"
+          },
+          {
+            "text": "@Zomato your AI assistant is a joke. It cannot solve even basic issues. Please provide human support.",
+            "platform": "Twitter/X",
+            "date": "2026-04-28 14:55:00",
+            "engagement": 257,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/e432a5a9"
+          },
+          {
+            "text": "The Zomato bot is stuck in a loop. All I want is a refund and it keeps asking me to rate my order.",
+            "platform": "Twitter/X",
+            "date": "2026-06-10 22:54:00",
+            "engagement": 244,
+            "sentiment": "Positive",
+            "url": "https://twitterx.com/example/e5234645"
+          },
+          {
+            "text": "Zomato chatbot said 'We understand your concern' and closed the ticket. No resolution whatsoever.",
+            "platform": "Twitter/X",
+            "date": "2026-05-08 16:21:00",
+            "engagement": 237,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/5aa4f7df"
+          },
+          {
+            "text": "Zomato chatbot said 'We understand your concern' and closed the ticket. No resolution whatsoever.",
+            "platform": "Twitter/X",
+            "date": "2026-06-15 07:34:00",
+            "engagement": 236,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/3e80e66f"
+          },
+          {
+            "text": "Zomato chatbot said 'We understand your concern' and closed the ticket. No resolution whatsoever.",
+            "platform": "Twitter/X",
+            "date": "2026-04-08 18:39:00",
+            "engagement": 231,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/46424e1e"
+          },
+          {
+            "text": "@Zomato your chatbot is absolutely useless. It keeps looping me in circles and won't connect to a human agent!",
+            "platform": "Twitter/X",
+            "date": "2026-05-16 13:51:00",
+            "engagement": 230,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/d52961e2"
+          }
+        ]
+      },
+      "C. Customer Care": {
+        "count": 157,
+        "share": 13.7,
+        "trend": {
+          "April": 56,
+          "May": 54,
+          "June": 47
+        },
+        "examples": [
+          {
+            "text": "The Zomato support executive was extremely rude and disconnected my call when I asked for a supervisor.",
+            "platform": "Twitter/X",
+            "date": "2026-06-02 12:02:00",
+            "engagement": 280,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/4aad868b"
+          },
+          {
+            "text": "Zomato customer care said they would resolve my issue in 24 hours. It has now been 72 hours. Nothing.",
+            "platform": "Twitter/X",
+            "date": "2026-05-27 14:00:00",
+            "engagement": 256,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/7c353b8f"
+          },
+          {
+            "text": "Zomato customer care said they would resolve my issue in 24 hours. It has now been 72 hours. Nothing.",
+            "platform": "Twitter/X",
+            "date": "2026-04-18 11:00:00",
+            "engagement": 251,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/07cd5f73"
+          },
+          {
+            "text": "The Zomato support executive was extremely rude and disconnected my call when I asked for a supervisor.",
+            "platform": "Twitter/X",
+            "date": "2026-05-18 15:20:00",
+            "engagement": 248,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/ff690727"
+          },
+          {
+            "text": "@Zomato it has been 5 days and I still have not received a callback. Your customer service is broken.",
+            "platform": "Twitter/X",
+            "date": "2026-04-25 10:14:00",
+            "engagement": 245,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/8965cf98"
+          },
+          {
+            "text": "The Zomato support executive was extremely rude and disconnected my call when I asked for a supervisor.",
+            "platform": "Twitter/X",
+            "date": "2026-04-23 19:28:00",
+            "engagement": 235,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/3aabb7ee"
+          },
+          {
+            "text": "Worst customer care experience ever with Zomato. Agent kept putting me on hold for 20 minutes then hung up.",
+            "platform": "Twitter/X",
+            "date": "2026-04-21 08:56:00",
+            "engagement": 235,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/0a5a48d9"
+          },
+          {
+            "text": "Zomato customer care said they would resolve my issue in 24 hours. It has now been 72 hours. Nothing.",
+            "platform": "Twitter/X",
+            "date": "2026-06-26 15:48:00",
+            "engagement": 227,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/cbcc070e"
+          }
+        ]
+      },
+      "D. Delay Related": {
+        "count": 202,
+        "share": 17.6,
+        "trend": {
+          "April": 56,
+          "May": 66,
+          "June": 80
+        },
+        "examples": [
+          {
+            "text": "Ordered food on Zomato for lunch. Still waiting at 3pm. Order placed at 12:30. This is ridiculous.",
+            "platform": "Twitter/X",
+            "date": "2026-06-19 12:31:00",
+            "engagement": 300,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/3e984658"
+          },
+          {
+            "text": "Order from Zomato was supposed to arrive in 30 minutes. It is now 2 hours and still waiting.",
+            "platform": "Twitter/X",
+            "date": "2026-04-11 19:06:00",
+            "engagement": 287,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/a8b1bcfc"
+          },
+          {
+            "text": "Ordered food on Zomato for lunch. Still waiting at 3pm. Order placed at 12:30. This is ridiculous.",
+            "platform": "Twitter/X",
+            "date": "2026-05-18 21:25:00",
+            "engagement": 286,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/0f2f8816"
+          },
+          {
+            "text": "Ordered food on Zomato for lunch. Still waiting at 3pm. Order placed at 12:30. This is ridiculous.",
+            "platform": "Twitter/X",
+            "date": "2026-06-27 12:49:00",
+            "engagement": 278,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/2b2d07e5"
+          },
+          {
+            "text": "My Zomato order ETA has changed 4 times in the last hour. Zero communication from the app.",
+            "platform": "Twitter/X",
+            "date": "2026-05-30 12:37:00",
+            "engagement": 277,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/5ee4aff5"
+          },
+          {
+            "text": "Zomato delivery partner was 2km away for 45 minutes. What is going on?",
+            "platform": "Twitter/X",
+            "date": "2026-06-18 14:00:00",
+            "engagement": 259,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/a364aeb2"
+          },
+          {
+            "text": "Order from Zomato was supposed to arrive in 30 minutes. It is now 2 hours and still waiting.",
+            "platform": "Twitter/X",
+            "date": "2026-04-30 18:42:00",
+            "engagement": 254,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/112d76c5"
+          },
+          {
+            "text": "Zomato delivery partner was 2km away for 45 minutes. What is going on?",
+            "platform": "Twitter/X",
+            "date": "2026-05-08 20:23:00",
+            "engagement": 251,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/3cd32509"
+          }
+        ]
+      },
+      "E. Food Quality": {
+        "count": 153,
+        "share": 13.3,
+        "trend": {
+          "April": 50,
+          "May": 59,
+          "June": 44
+        },
+        "examples": [
+          {
+            "text": "@Zomato ordered 2 items and only 1 was delivered. The other was missing. No refund either.",
+            "platform": "Twitter/X",
+            "date": "2026-05-06 18:52:00",
+            "engagement": 287,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/94edf28a"
+          },
+          {
+            "text": "Zomato delivered food with a foreign particle inside. This is a serious hygiene issue.",
+            "platform": "Twitter/X",
+            "date": "2026-05-20 15:36:00",
+            "engagement": 283,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/8a275f45"
+          },
+          {
+            "text": "Hair found in food delivered by Zomato. Complained immediately, no action taken.",
+            "platform": "Twitter/X",
+            "date": "2026-05-18 14:45:00",
+            "engagement": 272,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/bccbbf9a"
+          },
+          {
+            "text": "Zomato delivered food with a foreign particle inside. This is a serious hygiene issue.",
+            "platform": "Twitter/X",
+            "date": "2026-05-09 11:06:00",
+            "engagement": 267,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/a8f70197"
+          },
+          {
+            "text": "Hair found in food delivered by Zomato. Complained immediately, no action taken.",
+            "platform": "Twitter/X",
+            "date": "2026-06-29 11:48:00",
+            "engagement": 252,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/2e3c1548"
+          },
+          {
+            "text": "Food from Zomato was completely cold and the packaging was damaged. Clearly tampered with.",
+            "platform": "Twitter/X",
+            "date": "2026-05-12 16:25:00",
+            "engagement": 249,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/bf050321"
+          },
+          {
+            "text": "Zomato delivered food with a foreign particle inside. This is a serious hygiene issue.",
+            "platform": "Twitter/X",
+            "date": "2026-04-04 11:48:00",
+            "engagement": 241,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/29a04761"
+          },
+          {
+            "text": "@Zomato ordered 2 items and only 1 was delivered. The other was missing. No refund either.",
+            "platform": "Twitter/X",
+            "date": "2026-05-16 14:40:00",
+            "engagement": 241,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/1c19ce15"
+          }
+        ]
+      },
+      "F. Delivery Executive": {
+        "count": 121,
+        "share": 10.5,
+        "trend": {
+          "April": 31,
+          "May": 39,
+          "June": 51
+        },
+        "examples": [
+          {
+            "text": "Safety concern: Zomato delivery executive was driving recklessly and arrived smelling of alcohol.",
+            "platform": "Twitter/X",
+            "date": "2026-06-04 11:05:00",
+            "engagement": 272,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/071ba903"
+          },
+          {
+            "text": "Safety concern: Zomato delivery executive was driving recklessly and arrived smelling of alcohol.",
+            "platform": "Twitter/X",
+            "date": "2026-06-03 12:57:00",
+            "engagement": 268,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/89d8594e"
+          },
+          {
+            "text": "@Zomato rider was extremely rude, used abusive language when I asked why he was late.",
+            "platform": "Twitter/X",
+            "date": "2026-04-14 17:44:00",
+            "engagement": 256,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/c2f60a22"
+          },
+          {
+            "text": "@Zomato rider was extremely rude, used abusive language when I asked why he was late.",
+            "platform": "Twitter/X",
+            "date": "2026-06-15 21:09:00",
+            "engagement": 252,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/51a928f0"
+          },
+          {
+            "text": "@Zomato the delivery executive was rude and demanded extra tip. When I refused he left the food outside.",
+            "platform": "Twitter/X",
+            "date": "2026-04-06 13:19:00",
+            "engagement": 249,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/eb568474"
+          },
+          {
+            "text": "The Zomato delivery executive asked me to come 500 meters outside to collect my order. I paid for delivery!",
+            "platform": "Twitter/X",
+            "date": "2026-05-07 18:15:00",
+            "engagement": 247,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/c56eb10f"
+          },
+          {
+            "text": "Safety concern: Zomato delivery executive was driving recklessly and arrived smelling of alcohol.",
+            "platform": "Twitter/X",
+            "date": "2026-05-12 11:45:00",
+            "engagement": 246,
+            "sentiment": "Positive",
+            "url": "https://twitterx.com/example/8a58efd5"
+          },
+          {
+            "text": "Zomato delivery partner marked order as delivered but never came to my building. Fake delivery!",
+            "platform": "Twitter/X",
+            "date": "2026-06-05 14:32:00",
+            "engagement": 240,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/3cd72420"
+          }
+        ]
+      },
+      "G. Payment/Coupon": {
+        "count": 111,
+        "share": 9.7,
+        "trend": {
+          "April": 35,
+          "May": 36,
+          "June": 40
+        },
+        "examples": [
+          {
+            "text": "Refund from Zomato promised in 5-7 days. It has been 15 days. Where is my money?",
+            "platform": "Twitter/X",
+            "date": "2026-05-16 07:35:00",
+            "engagement": 287,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/0a3c2925"
+          },
+          {
+            "text": "Zomato wallet money deducted but order was cancelled. Balance not restored.",
+            "platform": "Twitter/X",
+            "date": "2026-04-11 23:26:00",
+            "engagement": 278,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/406b853f"
+          },
+          {
+            "text": "Zomato coupon code did not apply at checkout even though it is supposed to be valid.",
+            "platform": "Twitter/X",
+            "date": "2026-05-31 12:56:00",
+            "engagement": 263,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/f32ff303"
+          },
+          {
+            "text": "Zomato coupon code did not apply at checkout even though it is supposed to be valid.",
+            "platform": "Twitter/X",
+            "date": "2026-06-18 17:19:00",
+            "engagement": 249,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/fde613a4"
+          },
+          {
+            "text": "Applied a 50% coupon on Zomato and it showed discount on screen but full amount was charged.",
+            "platform": "Twitter/X",
+            "date": "2026-05-17 21:16:00",
+            "engagement": 238,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/851ab83a"
+          },
+          {
+            "text": "Refund from Zomato promised in 5-7 days. It has been 15 days. Where is my money?",
+            "platform": "Twitter/X",
+            "date": "2026-05-14 14:42:00",
+            "engagement": 237,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/7f91b1da"
+          },
+          {
+            "text": "@Zomato double charged me and my bank confirms 2 deductions. Need immediate refund.",
+            "platform": "Twitter/X",
+            "date": "2026-04-17 15:04:00",
+            "engagement": 233,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/a50c5e8c"
+          },
+          {
+            "text": "@Zomato double charged me and my bank confirms 2 deductions. Need immediate refund.",
+            "platform": "Twitter/X",
+            "date": "2026-06-08 22:09:00",
+            "engagement": 230,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/66d8a3c8"
+          }
+        ]
+      },
+      "H. Price/Fee": {
+        "count": 56,
+        "share": 4.9,
+        "trend": {
+          "April": 18,
+          "May": 20,
+          "June": 18
+        },
+        "examples": [
+          {
+            "text": "Zomato is charging a rain surcharge but it is not even raining. Hidden charges everywhere.",
+            "platform": "Twitter/X",
+            "date": "2026-04-09 14:21:00",
+            "engagement": 250,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/a894fcca"
+          },
+          {
+            "text": "Zomato price shown on menu is different from what is charged at checkout. Hidden charges!",
+            "platform": "Twitter/X",
+            "date": "2026-06-08 12:55:00",
+            "engagement": 249,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/0f6d448a"
+          },
+          {
+            "text": "@Zomato please explain why there is a Rs 10 handling fee on top of delivery fee and platform fee?",
+            "platform": "Twitter/X",
+            "date": "2026-05-08 09:54:00",
+            "engagement": 242,
+            "sentiment": "Neutral",
+            "url": "https://twitterx.com/example/4219d189"
+          },
+          {
+            "text": "Delivery fee on Zomato during peak hours is higher than the actual food price. This is robbery.",
+            "platform": "Twitter/X",
+            "date": "2026-06-24 19:10:00",
+            "engagement": 240,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/7bf426d2"
+          },
+          {
+            "text": "Zomato is charging a rain surcharge but it is not even raining. Hidden charges everywhere.",
+            "platform": "Twitter/X",
+            "date": "2026-06-05 13:03:00",
+            "engagement": 220,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/a9412832"
+          },
+          {
+            "text": "@Zomato please explain why there is a Rs 10 handling fee on top of delivery fee and platform fee?",
+            "platform": "Twitter/X",
+            "date": "2026-04-28 23:27:00",
+            "engagement": 214,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/fc0a7492"
+          },
+          {
+            "text": "Zomato price shown on menu is different from what is charged at checkout. Hidden charges!",
+            "platform": "Twitter/X",
+            "date": "2026-06-17 11:53:00",
+            "engagement": 206,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/b4b7fbb6"
+          },
+          {
+            "text": "Delivery fee on Zomato during peak hours is higher than the actual food price. This is robbery.",
+            "platform": "Twitter/X",
+            "date": "2026-06-09 14:35:00",
+            "engagement": 198,
+            "sentiment": "Positive",
+            "url": "https://twitterx.com/example/7d96c044"
+          }
+        ]
+      },
+      "I. Other/Emerging": {
+        "count": 56,
+        "share": 4.9,
+        "trend": {
+          "April": 17,
+          "May": 16,
+          "June": 23
+        },
+        "examples": [
+          {
+            "text": "@Zomato restaurant listed as open but not accepting orders. Stop showing ghost restaurants.",
+            "platform": "Twitter/X",
+            "date": "2026-04-28 09:11:00",
+            "engagement": 248,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/d425ad02"
+          },
+          {
+            "text": "Dark pattern on Zomato app — I accidentally bought a subscription I did not want.",
+            "platform": "Twitter/X",
+            "date": "2026-06-19 12:01:00",
+            "engagement": 243,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/7124609c"
+          },
+          {
+            "text": "Zomato pushed 8 promotional notifications today. Please give users the option to opt out.",
+            "platform": "Twitter/X",
+            "date": "2026-04-17 16:09:00",
+            "engagement": 231,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/f93962f0"
+          },
+          {
+            "text": "Zomato pushed 8 promotional notifications today. Please give users the option to opt out.",
+            "platform": "Twitter/X",
+            "date": "2026-06-06 21:40:00",
+            "engagement": 226,
+            "sentiment": "Positive",
+            "url": "https://twitterx.com/example/6a5cc240"
+          },
+          {
+            "text": "The Zomato app does not work on my Android device after the latest update.",
+            "platform": "Twitter/X",
+            "date": "2026-04-21 19:59:00",
+            "engagement": 224,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/3ac08bdb"
+          },
+          {
+            "text": "The Zomato app does not work on my Android device after the latest update.",
+            "platform": "Twitter/X",
+            "date": "2026-06-24 16:54:00",
+            "engagement": 224,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/ea2aebb1"
+          },
+          {
+            "text": "@Zomato the app keeps crashing when I try to track my order. Very buggy.",
+            "platform": "Twitter/X",
+            "date": "2026-05-25 07:05:00",
+            "engagement": 220,
+            "sentiment": "Positive",
+            "url": "https://twitterx.com/example/95d68fe3"
+          },
+          {
+            "text": "@Zomato the app keeps crashing when I try to track my order. Very buggy.",
+            "platform": "Twitter/X",
+            "date": "2026-06-19 07:53:00",
+            "engagement": 217,
+            "sentiment": "Negative",
+            "url": "https://twitterx.com/example/c4db8c19"
+          }
+        ]
+      }
+    }
+  },
+  "competitive": {
+    "by_bucket": {
+      "A. Cancellation": {
+        "swiggy_count": 263,
+        "zomato_count": 199,
+        "swiggy_share": 17.0,
+        "zomato_share": 17.3,
+        "diff_share": -0.3
+      },
+      "B. AI/Bot Related": {
+        "swiggy_count": 171,
+        "zomato_count": 92,
+        "swiggy_share": 11.0,
+        "zomato_share": 8.0,
+        "diff_share": 3.0
+      },
+      "C. Customer Care": {
+        "swiggy_count": 179,
+        "zomato_count": 157,
+        "swiggy_share": 11.6,
+        "zomato_share": 13.7,
+        "diff_share": -2.1
+      },
+      "D. Delay Related": {
+        "swiggy_count": 271,
+        "zomato_count": 202,
+        "swiggy_share": 17.5,
+        "zomato_share": 17.6,
+        "diff_share": -0.1
+      },
+      "E. Food Quality": {
+        "swiggy_count": 185,
+        "zomato_count": 153,
+        "swiggy_share": 12.0,
+        "zomato_share": 13.3,
+        "diff_share": -1.3
+      },
+      "F. Delivery Executive": {
+        "swiggy_count": 130,
+        "zomato_count": 121,
+        "swiggy_share": 8.4,
+        "zomato_share": 10.5,
+        "diff_share": -2.1
+      },
+      "G. Payment/Coupon": {
+        "swiggy_count": 158,
+        "zomato_count": 111,
+        "swiggy_share": 10.2,
+        "zomato_share": 9.7,
+        "diff_share": 0.5
+      },
+      "H. Price/Fee": {
+        "swiggy_count": 98,
+        "zomato_count": 56,
+        "swiggy_share": 6.3,
+        "zomato_share": 4.9,
+        "diff_share": 1.4
+      },
+      "I. Other/Emerging": {
+        "swiggy_count": 93,
+        "zomato_count": 56,
+        "swiggy_share": 6.0,
+        "zomato_share": 4.9,
+        "diff_share": 1.1
+      }
+    },
+    "higher_swiggy": [
+      "B. AI/Bot Related"
+    ],
+    "higher_zomato": [
+      "C. Customer Care",
+      "F. Delivery Executive"
+    ]
+  },
+  "emerging": [
+    {
+      "issue": "B. AI/Bot Related (Zomato)",
+      "type": "Spike",
+      "total": 38,
+      "apr_count": 31,
+      "jun_count": 38,
+      "growth_pct": 65.2,
+      "brand": "zomato",
+      "samples": []
+    }
+  ],
+  "rep_posts": {
+    "swiggy": {
+      "A. Cancellation": [
+        {
+          "text": "Order ID 850537 was auto-cancelled by Swiggy. No notification, money still deducted. Fix this!",
+          "platform": "Twitter/X",
+          "date": "2026-06-07 19:53:00",
+          "engagement": 301,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/92fd6b1a"
+        },
+        {
+          "text": "Third time Swiggy auto-cancelled my order at the last minute. Terrible experience.",
+          "platform": "Twitter/X",
+          "date": "2026-04-26 11:04:00",
+          "engagement": 288,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/08eb3e07"
+        },
+        {
+          "text": "Swiggy cancelled my order after the restaurant confirmed it. What is happening?",
+          "platform": "Twitter/X",
+          "date": "2026-05-30 12:06:00",
+          "engagement": 287,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/fe50ec97"
+        },
+        {
+          "text": "@Swiggy my order was cancelled without any reason after waiting 40 minutes. No refund yet! #FoodDelivery",
+          "platform": "Twitter/X",
+          "date": "2026-06-03 17:11:00",
+          "engagement": 286,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/7d9584d7"
+        },
+        {
+          "text": "Order ID 506968 was auto-cancelled by Swiggy. No notification, money still deducted. Fix this!",
+          "platform": "Twitter/X",
+          "date": "2026-06-15 12:20:00",
+          "engagement": 280,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/5f8dbad1"
+        },
+        {
+          "text": "Swiggy cancellation issue is getting worse every week. Twice in the last 3 days.",
+          "platform": "Twitter/X",
+          "date": "2026-04-03 11:17:00",
+          "engagement": 276,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/c5f35643"
+        },
+        {
+          "text": "Swiggy cancelled my order after the restaurant confirmed it. What is happening?",
+          "platform": "Twitter/X",
+          "date": "2026-06-15 12:28:00",
+          "engagement": 268,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/3411bebc"
+        },
+        {
+          "text": "Order ID 303322 was auto-cancelled by Swiggy. No notification, money still deducted. Fix this!",
+          "platform": "Twitter/X",
+          "date": "2026-04-27 11:15:00",
+          "engagement": 264,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/68837336"
+        }
+      ],
+      "B. AI/Bot Related": [
+        {
+          "text": "Swiggy AI support gave me the same automated response 5 times. There is no way to reach a real person.",
+          "platform": "Twitter/X",
+          "date": "2026-06-17 15:08:00",
+          "engagement": 272,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/c6d13ded"
+        },
+        {
+          "text": "@Swiggy your AI assistant is a joke. It cannot solve even basic issues. Please provide human support.",
+          "platform": "Twitter/X",
+          "date": "2026-05-09 21:11:00",
+          "engagement": 262,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/31ef1716"
+        },
+        {
+          "text": "@Swiggy your chatbot is absolutely useless. It keeps looping me in circles and won't connect to a human agent!",
+          "platform": "Twitter/X",
+          "date": "2026-05-09 20:05:00",
+          "engagement": 251,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/772d38df"
+        },
+        {
+          "text": "Swiggy AI support gave me the same automated response 5 times. There is no way to reach a real person.",
+          "platform": "Twitter/X",
+          "date": "2026-06-03 09:35:00",
+          "engagement": 247,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/2e2b62ed"
+        },
+        {
+          "text": "@Swiggy your chatbot is absolutely useless. It keeps looping me in circles and won't connect to a human agent!",
+          "platform": "Twitter/X",
+          "date": "2026-05-11 14:34:00",
+          "engagement": 243,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/9db94fe4"
+        },
+        {
+          "text": "@Swiggy your AI assistant is a joke. It cannot solve even basic issues. Please provide human support.",
+          "platform": "Twitter/X",
+          "date": "2026-06-06 21:48:00",
+          "engagement": 241,
+          "sentiment": "Positive",
+          "url": "https://twitterx.com/example/2e13b585"
+        },
+        {
+          "text": "@Swiggy your AI assistant is a joke. It cannot solve even basic issues. Please provide human support.",
+          "platform": "Twitter/X",
+          "date": "2026-05-08 08:08:00",
+          "engagement": 236,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/265a4777"
+        },
+        {
+          "text": "Swiggy AI support gave me the same automated response 5 times. There is no way to reach a real person.",
+          "platform": "Twitter/X",
+          "date": "2026-06-27 11:32:00",
+          "engagement": 234,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/6566507a"
+        }
+      ],
+      "C. Customer Care": [
+        {
+          "text": "The Swiggy support executive was extremely rude and disconnected my call when I asked for a supervisor.",
+          "platform": "Twitter/X",
+          "date": "2026-05-22 09:16:00",
+          "engagement": 286,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/47687e97"
+        },
+        {
+          "text": "Swiggy escalated my ticket to 3 different agents and none of them could process my refund.",
+          "platform": "Twitter/X",
+          "date": "2026-05-25 22:14:00",
+          "engagement": 271,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/afbfe9b6"
+        },
+        {
+          "text": "@Swiggy it has been 5 days and I still have not received a callback. Your customer service is broken.",
+          "platform": "Twitter/X",
+          "date": "2026-06-14 22:44:00",
+          "engagement": 267,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/b1076b1d"
+        },
+        {
+          "text": "@Swiggy it has been 5 days and I still have not received a callback. Your customer service is broken.",
+          "platform": "Twitter/X",
+          "date": "2026-05-31 09:47:00",
+          "engagement": 262,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/c9adaafc"
+        },
+        {
+          "text": "Worst customer care experience ever with Swiggy. Agent kept putting me on hold for 20 minutes then hung up.",
+          "platform": "Twitter/X",
+          "date": "2026-06-19 22:02:00",
+          "engagement": 259,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/45d94ad1"
+        },
+        {
+          "text": "Swiggy escalated my ticket to 3 different agents and none of them could process my refund.",
+          "platform": "Twitter/X",
+          "date": "2026-04-26 19:22:00",
+          "engagement": 259,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/11cc01a5"
+        },
+        {
+          "text": "Swiggy customer care said they would resolve my issue in 24 hours. It has now been 72 hours. Nothing.",
+          "platform": "Twitter/X",
+          "date": "2026-04-27 20:16:00",
+          "engagement": 259,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/722de6e4"
+        },
+        {
+          "text": "Swiggy customer care said they would resolve my issue in 24 hours. It has now been 72 hours. Nothing.",
+          "platform": "Twitter/X",
+          "date": "2026-06-27 22:24:00",
+          "engagement": 258,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/bbff230d"
+        }
+      ],
+      "D. Delay Related": [
+        {
+          "text": "Swiggy shows restaurant preparation time of 5 minutes but it has been 50 minutes. No update.",
+          "platform": "Twitter/X",
+          "date": "2026-04-09 21:04:00",
+          "engagement": 293,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/a546f59d"
+        },
+        {
+          "text": "Swiggy shows restaurant preparation time of 5 minutes but it has been 50 minutes. No update.",
+          "platform": "Twitter/X",
+          "date": "2026-06-21 09:12:00",
+          "engagement": 271,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/504cdb97"
+        },
+        {
+          "text": "Order from Swiggy was supposed to arrive in 30 minutes. It is now 2 hours and still waiting.",
+          "platform": "Twitter/X",
+          "date": "2026-04-03 17:38:00",
+          "engagement": 268,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/d7b7d63b"
+        },
+        {
+          "text": "Swiggy shows restaurant preparation time of 5 minutes but it has been 50 minutes. No update.",
+          "platform": "Twitter/X",
+          "date": "2026-05-21 22:37:00",
+          "engagement": 265,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/7031ff9b"
+        },
+        {
+          "text": "Ordered food on Swiggy for lunch. Still waiting at 3pm. Order placed at 12:30. This is ridiculous.",
+          "platform": "Twitter/X",
+          "date": "2026-05-01 23:55:00",
+          "engagement": 254,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/d4e747ed"
+        },
+        {
+          "text": "My Swiggy order ETA has changed 4 times in the last hour. Zero communication from the app.",
+          "platform": "Twitter/X",
+          "date": "2026-06-13 21:47:00",
+          "engagement": 253,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/830953f7"
+        },
+        {
+          "text": "Order from Swiggy was supposed to arrive in 30 minutes. It is now 2 hours and still waiting.",
+          "platform": "Twitter/X",
+          "date": "2026-05-17 09:15:00",
+          "engagement": 250,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/4fcfc931"
+        },
+        {
+          "text": "Swiggy shows restaurant preparation time of 5 minutes but it has been 50 minutes. No update.",
+          "platform": "Twitter/X",
+          "date": "2026-05-10 08:57:00",
+          "engagement": 249,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/071927d8"
+        }
+      ],
+      "E. Food Quality": [
+        {
+          "text": "@Swiggy they delivered completely wrong items. I ordered paneer but got chicken. Unacceptable!",
+          "platform": "Twitter/X",
+          "date": "2026-04-16 18:58:00",
+          "engagement": 275,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/b108d250"
+        },
+        {
+          "text": "Swiggy delivered veg as non-veg. This is a religious and dietary violation. Extremely upset.",
+          "platform": "Twitter/X",
+          "date": "2026-05-09 15:37:00",
+          "engagement": 274,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/50c1d59a"
+        },
+        {
+          "text": "Missing items in my Swiggy order again. Half my food was not delivered and the rest was cold.",
+          "platform": "Twitter/X",
+          "date": "2026-05-14 15:40:00",
+          "engagement": 273,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/8eef1fc6"
+        },
+        {
+          "text": "Food from Swiggy was completely cold and the packaging was damaged. Clearly tampered with.",
+          "platform": "Twitter/X",
+          "date": "2026-06-25 16:38:00",
+          "engagement": 270,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/96982433"
+        },
+        {
+          "text": "Swiggy delivered veg as non-veg. This is a religious and dietary violation. Extremely upset.",
+          "platform": "Twitter/X",
+          "date": "2026-05-19 11:06:00",
+          "engagement": 267,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/ae46a709"
+        },
+        {
+          "text": "Food from Swiggy was completely cold and the packaging was damaged. Clearly tampered with.",
+          "platform": "Twitter/X",
+          "date": "2026-06-16 15:23:00",
+          "engagement": 266,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/47153e92"
+        },
+        {
+          "text": "Hair found in food delivered by Swiggy. Complained immediately, no action taken.",
+          "platform": "Twitter/X",
+          "date": "2026-06-04 20:46:00",
+          "engagement": 264,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/6d34268f"
+        },
+        {
+          "text": "@Swiggy they delivered completely wrong items. I ordered paneer but got chicken. Unacceptable!",
+          "platform": "Twitter/X",
+          "date": "2026-06-20 09:09:00",
+          "engagement": 262,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/60bbe736"
+        }
+      ],
+      "F. Delivery Executive": [
+        {
+          "text": "@Swiggy the delivery executive was rude and demanded extra tip. When I refused he left the food outside.",
+          "platform": "Twitter/X",
+          "date": "2026-05-29 09:15:00",
+          "engagement": 256,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/3a3abd63"
+        },
+        {
+          "text": "Swiggy delivery partner marked order as delivered but never came to my building. Fake delivery!",
+          "platform": "Twitter/X",
+          "date": "2026-04-29 08:33:00",
+          "engagement": 249,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/fe2138af"
+        },
+        {
+          "text": "@Swiggy the delivery executive was rude and demanded extra tip. When I refused he left the food outside.",
+          "platform": "Twitter/X",
+          "date": "2026-06-08 21:41:00",
+          "engagement": 246,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/6fb00c6c"
+        },
+        {
+          "text": "Swiggy delivery guy tampered with my sealed food bag. This is unacceptable.",
+          "platform": "Twitter/X",
+          "date": "2026-06-15 12:32:00",
+          "engagement": 242,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/938999f2"
+        },
+        {
+          "text": "Swiggy delivery guy tampered with my sealed food bag. This is unacceptable.",
+          "platform": "Twitter/X",
+          "date": "2026-04-26 21:31:00",
+          "engagement": 240,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/89778aaa"
+        },
+        {
+          "text": "The Swiggy delivery executive asked me to come 500 meters outside to collect my order. I paid for delivery!",
+          "platform": "Twitter/X",
+          "date": "2026-06-17 10:17:00",
+          "engagement": 233,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/0c7de2ad"
+        },
+        {
+          "text": "Swiggy delivery guy tampered with my sealed food bag. This is unacceptable.",
+          "platform": "Twitter/X",
+          "date": "2026-06-03 08:22:00",
+          "engagement": 232,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/9c056e2d"
+        },
+        {
+          "text": "@Swiggy rider was extremely rude, used abusive language when I asked why he was late.",
+          "platform": "Twitter/X",
+          "date": "2026-06-22 20:24:00",
+          "engagement": 232,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/9e8f0924"
+        }
+      ],
+      "G. Payment/Coupon": [
+        {
+          "text": "@Swiggy double charged me and my bank confirms 2 deductions. Need immediate refund.",
+          "platform": "Twitter/X",
+          "date": "2026-04-12 16:48:00",
+          "engagement": 273,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/688b562e"
+        },
+        {
+          "text": "Applied a 50% coupon on Swiggy and it showed discount on screen but full amount was charged.",
+          "platform": "Twitter/X",
+          "date": "2026-05-18 20:59:00",
+          "engagement": 266,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/670a86c4"
+        },
+        {
+          "text": "@Swiggy my cashback never reflected. Order from 10 days ago. No response from support.",
+          "platform": "Twitter/X",
+          "date": "2026-04-15 07:23:00",
+          "engagement": 257,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/3fe56613"
+        },
+        {
+          "text": "Applied a 50% coupon on Swiggy and it showed discount on screen but full amount was charged.",
+          "platform": "Twitter/X",
+          "date": "2026-05-23 12:20:00",
+          "engagement": 254,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/4992d24b"
+        },
+        {
+          "text": "Swiggy wallet money deducted but order was cancelled. Balance not restored.",
+          "platform": "Twitter/X",
+          "date": "2026-04-05 23:14:00",
+          "engagement": 253,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/8b1ab895"
+        },
+        {
+          "text": "@Swiggy my cashback never reflected. Order from 10 days ago. No response from support.",
+          "platform": "Twitter/X",
+          "date": "2026-06-24 23:44:00",
+          "engagement": 248,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/a6f43b88"
+        },
+        {
+          "text": "Applied a 50% coupon on Swiggy and it showed discount on screen but full amount was charged.",
+          "platform": "Twitter/X",
+          "date": "2026-05-23 10:27:00",
+          "engagement": 245,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/3bbd26e9"
+        },
+        {
+          "text": "Applied a 50% coupon on Swiggy and it showed discount on screen but full amount was charged.",
+          "platform": "Twitter/X",
+          "date": "2026-04-09 18:29:00",
+          "engagement": 232,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/f4ca5891"
+        }
+      ],
+      "H. Price/Fee": [
+        {
+          "text": "The surge pricing on Swiggy during evenings is outrageous. Same item costs 30% more after 7pm.",
+          "platform": "Twitter/X",
+          "date": "2026-05-12 18:26:00",
+          "engagement": 262,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/d3059db2"
+        },
+        {
+          "text": "Swiggy price shown on menu is different from what is charged at checkout. Hidden charges!",
+          "platform": "Twitter/X",
+          "date": "2026-05-10 17:52:00",
+          "engagement": 248,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/87a7d3b1"
+        },
+        {
+          "text": "@Swiggy please explain why there is a Rs 10 handling fee on top of delivery fee and platform fee?",
+          "platform": "Twitter/X",
+          "date": "2026-06-10 18:49:00",
+          "engagement": 247,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/3fad15d9"
+        },
+        {
+          "text": "@Swiggy please explain why there is a Rs 10 handling fee on top of delivery fee and platform fee?",
+          "platform": "Twitter/X",
+          "date": "2026-05-22 11:10:00",
+          "engagement": 238,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/5020f4d4"
+        },
+        {
+          "text": "The surge pricing on Swiggy during evenings is outrageous. Same item costs 30% more after 7pm.",
+          "platform": "Twitter/X",
+          "date": "2026-06-20 10:57:00",
+          "engagement": 233,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/db4bd380"
+        },
+        {
+          "text": "@Swiggy the platform fee has increased from Rs 3 to Rs 6 in just 2 months. Stop looting customers.",
+          "platform": "Twitter/X",
+          "date": "2026-04-26 23:02:00",
+          "engagement": 232,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/822373f6"
+        },
+        {
+          "text": "Swiggy is charging a rain surcharge but it is not even raining. Hidden charges everywhere.",
+          "platform": "Twitter/X",
+          "date": "2026-05-09 22:40:00",
+          "engagement": 226,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/00e265b5"
+        },
+        {
+          "text": "@Swiggy please explain why there is a Rs 10 handling fee on top of delivery fee and platform fee?",
+          "platform": "Twitter/X",
+          "date": "2026-06-29 16:37:00",
+          "engagement": 226,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/6b9c9421"
+        }
+      ],
+      "I. Other/Emerging": [
+        {
+          "text": "Swiggy pushed 8 promotional notifications today. Please give users the option to opt out.",
+          "platform": "Twitter/X",
+          "date": "2026-05-27 21:06:00",
+          "engagement": 288,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/a03624db"
+        },
+        {
+          "text": "Dark pattern on Swiggy app — I accidentally bought a subscription I did not want.",
+          "platform": "Twitter/X",
+          "date": "2026-04-01 17:50:00",
+          "engagement": 261,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/20a8677a"
+        },
+        {
+          "text": "Dark pattern on Swiggy app — I accidentally bought a subscription I did not want.",
+          "platform": "Twitter/X",
+          "date": "2026-06-09 19:41:00",
+          "engagement": 244,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/1faa9ffe"
+        },
+        {
+          "text": "The Swiggy app does not work on my Android device after the latest update.",
+          "platform": "Twitter/X",
+          "date": "2026-06-10 13:05:00",
+          "engagement": 238,
+          "sentiment": "Positive",
+          "url": "https://twitterx.com/example/3387ce59"
+        },
+        {
+          "text": "Swiggy pushed 8 promotional notifications today. Please give users the option to opt out.",
+          "platform": "Twitter/X",
+          "date": "2026-04-02 18:41:00",
+          "engagement": 237,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/8fa11e66"
+        },
+        {
+          "text": "@Swiggy the app keeps crashing when I try to track my order. Very buggy.",
+          "platform": "Twitter/X",
+          "date": "2026-06-15 09:54:00",
+          "engagement": 230,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/ecee6ecc"
+        },
+        {
+          "text": "@Swiggy restaurant listed as open but not accepting orders. Stop showing ghost restaurants.",
+          "platform": "Twitter/X",
+          "date": "2026-04-27 12:49:00",
+          "engagement": 229,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/1771a097"
+        },
+        {
+          "text": "Swiggy pushed 8 promotional notifications today. Please give users the option to opt out.",
+          "platform": "Twitter/X",
+          "date": "2026-05-03 07:00:00",
+          "engagement": 220,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/de1778a1"
+        }
+      ]
+    },
+    "zomato": {
+      "A. Cancellation": [
+        {
+          "text": "Restaurant on Zomato cancelled my food order on a Saturday night. Ordered at 9pm, cancelled at 9:30. Zero accountability.",
+          "platform": "Twitter/X",
+          "date": "2026-04-13 16:15:00",
+          "engagement": 267,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/04308be7"
+        },
+        {
+          "text": "Restaurant on Zomato cancelled my food order on a Saturday night. Ordered at 9pm, cancelled at 9:30. Zero accountability.",
+          "platform": "Twitter/X",
+          "date": "2026-05-15 08:59:00",
+          "engagement": 263,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/60413dbe"
+        },
+        {
+          "text": "@Zomato my order was cancelled without any reason after waiting 40 minutes. No refund yet! #FoodDelivery",
+          "platform": "Twitter/X",
+          "date": "2026-06-03 09:50:00",
+          "engagement": 260,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/0436efd3"
+        },
+        {
+          "text": "Zomato cancelled my order after the restaurant confirmed it. What is happening?",
+          "platform": "Twitter/X",
+          "date": "2026-06-09 09:59:00",
+          "engagement": 260,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/a6823b89"
+        },
+        {
+          "text": "Restaurant on Zomato cancelled my food order on a Saturday night. Ordered at 9pm, cancelled at 9:30. Zero accountability.",
+          "platform": "Twitter/X",
+          "date": "2026-04-20 13:58:00",
+          "engagement": 254,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/50d9d1f9"
+        },
+        {
+          "text": "Restaurant on Zomato cancelled my food order on a Saturday night. Ordered at 9pm, cancelled at 9:30. Zero accountability.",
+          "platform": "Twitter/X",
+          "date": "2026-06-13 09:23:00",
+          "engagement": 253,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/4ff1d9f1"
+        },
+        {
+          "text": "Zomato cancelled my order after the restaurant confirmed it. What is happening?",
+          "platform": "Twitter/X",
+          "date": "2026-06-13 15:28:00",
+          "engagement": 253,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/fd059474"
+        },
+        {
+          "text": "Third time Zomato auto-cancelled my order at the last minute. Terrible experience.",
+          "platform": "Twitter/X",
+          "date": "2026-06-22 11:13:00",
+          "engagement": 248,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/45c67346"
+        }
+      ],
+      "B. AI/Bot Related": [
+        {
+          "text": "@Zomato your chatbot is absolutely useless. It keeps looping me in circles and won't connect to a human agent!",
+          "platform": "Twitter/X",
+          "date": "2026-06-28 07:10:00",
+          "engagement": 277,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/1035c7df"
+        },
+        {
+          "text": "@Zomato your AI assistant is a joke. It cannot solve even basic issues. Please provide human support.",
+          "platform": "Twitter/X",
+          "date": "2026-06-20 15:10:00",
+          "engagement": 269,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/43dd92ba"
+        },
+        {
+          "text": "@Zomato your AI assistant is a joke. It cannot solve even basic issues. Please provide human support.",
+          "platform": "Twitter/X",
+          "date": "2026-04-28 14:55:00",
+          "engagement": 257,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/e432a5a9"
+        },
+        {
+          "text": "The Zomato bot is stuck in a loop. All I want is a refund and it keeps asking me to rate my order.",
+          "platform": "Twitter/X",
+          "date": "2026-06-10 22:54:00",
+          "engagement": 244,
+          "sentiment": "Positive",
+          "url": "https://twitterx.com/example/e5234645"
+        },
+        {
+          "text": "Zomato chatbot said 'We understand your concern' and closed the ticket. No resolution whatsoever.",
+          "platform": "Twitter/X",
+          "date": "2026-05-08 16:21:00",
+          "engagement": 237,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/5aa4f7df"
+        },
+        {
+          "text": "Zomato chatbot said 'We understand your concern' and closed the ticket. No resolution whatsoever.",
+          "platform": "Twitter/X",
+          "date": "2026-06-15 07:34:00",
+          "engagement": 236,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/3e80e66f"
+        },
+        {
+          "text": "Zomato chatbot said 'We understand your concern' and closed the ticket. No resolution whatsoever.",
+          "platform": "Twitter/X",
+          "date": "2026-04-08 18:39:00",
+          "engagement": 231,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/46424e1e"
+        },
+        {
+          "text": "@Zomato your chatbot is absolutely useless. It keeps looping me in circles and won't connect to a human agent!",
+          "platform": "Twitter/X",
+          "date": "2026-05-16 13:51:00",
+          "engagement": 230,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/d52961e2"
+        }
+      ],
+      "C. Customer Care": [
+        {
+          "text": "The Zomato support executive was extremely rude and disconnected my call when I asked for a supervisor.",
+          "platform": "Twitter/X",
+          "date": "2026-06-02 12:02:00",
+          "engagement": 280,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/4aad868b"
+        },
+        {
+          "text": "Zomato customer care said they would resolve my issue in 24 hours. It has now been 72 hours. Nothing.",
+          "platform": "Twitter/X",
+          "date": "2026-05-27 14:00:00",
+          "engagement": 256,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/7c353b8f"
+        },
+        {
+          "text": "Zomato customer care said they would resolve my issue in 24 hours. It has now been 72 hours. Nothing.",
+          "platform": "Twitter/X",
+          "date": "2026-04-18 11:00:00",
+          "engagement": 251,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/07cd5f73"
+        },
+        {
+          "text": "The Zomato support executive was extremely rude and disconnected my call when I asked for a supervisor.",
+          "platform": "Twitter/X",
+          "date": "2026-05-18 15:20:00",
+          "engagement": 248,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/ff690727"
+        },
+        {
+          "text": "@Zomato it has been 5 days and I still have not received a callback. Your customer service is broken.",
+          "platform": "Twitter/X",
+          "date": "2026-04-25 10:14:00",
+          "engagement": 245,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/8965cf98"
+        },
+        {
+          "text": "The Zomato support executive was extremely rude and disconnected my call when I asked for a supervisor.",
+          "platform": "Twitter/X",
+          "date": "2026-04-23 19:28:00",
+          "engagement": 235,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/3aabb7ee"
+        },
+        {
+          "text": "Worst customer care experience ever with Zomato. Agent kept putting me on hold for 20 minutes then hung up.",
+          "platform": "Twitter/X",
+          "date": "2026-04-21 08:56:00",
+          "engagement": 235,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/0a5a48d9"
+        },
+        {
+          "text": "Zomato customer care said they would resolve my issue in 24 hours. It has now been 72 hours. Nothing.",
+          "platform": "Twitter/X",
+          "date": "2026-06-26 15:48:00",
+          "engagement": 227,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/cbcc070e"
+        }
+      ],
+      "D. Delay Related": [
+        {
+          "text": "Ordered food on Zomato for lunch. Still waiting at 3pm. Order placed at 12:30. This is ridiculous.",
+          "platform": "Twitter/X",
+          "date": "2026-06-19 12:31:00",
+          "engagement": 300,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/3e984658"
+        },
+        {
+          "text": "Order from Zomato was supposed to arrive in 30 minutes. It is now 2 hours and still waiting.",
+          "platform": "Twitter/X",
+          "date": "2026-04-11 19:06:00",
+          "engagement": 287,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/a8b1bcfc"
+        },
+        {
+          "text": "Ordered food on Zomato for lunch. Still waiting at 3pm. Order placed at 12:30. This is ridiculous.",
+          "platform": "Twitter/X",
+          "date": "2026-05-18 21:25:00",
+          "engagement": 286,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/0f2f8816"
+        },
+        {
+          "text": "Ordered food on Zomato for lunch. Still waiting at 3pm. Order placed at 12:30. This is ridiculous.",
+          "platform": "Twitter/X",
+          "date": "2026-06-27 12:49:00",
+          "engagement": 278,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/2b2d07e5"
+        },
+        {
+          "text": "My Zomato order ETA has changed 4 times in the last hour. Zero communication from the app.",
+          "platform": "Twitter/X",
+          "date": "2026-05-30 12:37:00",
+          "engagement": 277,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/5ee4aff5"
+        },
+        {
+          "text": "Zomato delivery partner was 2km away for 45 minutes. What is going on?",
+          "platform": "Twitter/X",
+          "date": "2026-06-18 14:00:00",
+          "engagement": 259,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/a364aeb2"
+        },
+        {
+          "text": "Order from Zomato was supposed to arrive in 30 minutes. It is now 2 hours and still waiting.",
+          "platform": "Twitter/X",
+          "date": "2026-04-30 18:42:00",
+          "engagement": 254,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/112d76c5"
+        },
+        {
+          "text": "Zomato delivery partner was 2km away for 45 minutes. What is going on?",
+          "platform": "Twitter/X",
+          "date": "2026-05-08 20:23:00",
+          "engagement": 251,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/3cd32509"
+        }
+      ],
+      "E. Food Quality": [
+        {
+          "text": "@Zomato ordered 2 items and only 1 was delivered. The other was missing. No refund either.",
+          "platform": "Twitter/X",
+          "date": "2026-05-06 18:52:00",
+          "engagement": 287,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/94edf28a"
+        },
+        {
+          "text": "Zomato delivered food with a foreign particle inside. This is a serious hygiene issue.",
+          "platform": "Twitter/X",
+          "date": "2026-05-20 15:36:00",
+          "engagement": 283,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/8a275f45"
+        },
+        {
+          "text": "Hair found in food delivered by Zomato. Complained immediately, no action taken.",
+          "platform": "Twitter/X",
+          "date": "2026-05-18 14:45:00",
+          "engagement": 272,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/bccbbf9a"
+        },
+        {
+          "text": "Zomato delivered food with a foreign particle inside. This is a serious hygiene issue.",
+          "platform": "Twitter/X",
+          "date": "2026-05-09 11:06:00",
+          "engagement": 267,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/a8f70197"
+        },
+        {
+          "text": "Hair found in food delivered by Zomato. Complained immediately, no action taken.",
+          "platform": "Twitter/X",
+          "date": "2026-06-29 11:48:00",
+          "engagement": 252,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/2e3c1548"
+        },
+        {
+          "text": "Food from Zomato was completely cold and the packaging was damaged. Clearly tampered with.",
+          "platform": "Twitter/X",
+          "date": "2026-05-12 16:25:00",
+          "engagement": 249,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/bf050321"
+        },
+        {
+          "text": "Zomato delivered food with a foreign particle inside. This is a serious hygiene issue.",
+          "platform": "Twitter/X",
+          "date": "2026-04-04 11:48:00",
+          "engagement": 241,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/29a04761"
+        },
+        {
+          "text": "@Zomato ordered 2 items and only 1 was delivered. The other was missing. No refund either.",
+          "platform": "Twitter/X",
+          "date": "2026-05-16 14:40:00",
+          "engagement": 241,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/1c19ce15"
+        }
+      ],
+      "F. Delivery Executive": [
+        {
+          "text": "Safety concern: Zomato delivery executive was driving recklessly and arrived smelling of alcohol.",
+          "platform": "Twitter/X",
+          "date": "2026-06-04 11:05:00",
+          "engagement": 272,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/071ba903"
+        },
+        {
+          "text": "Safety concern: Zomato delivery executive was driving recklessly and arrived smelling of alcohol.",
+          "platform": "Twitter/X",
+          "date": "2026-06-03 12:57:00",
+          "engagement": 268,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/89d8594e"
+        },
+        {
+          "text": "@Zomato rider was extremely rude, used abusive language when I asked why he was late.",
+          "platform": "Twitter/X",
+          "date": "2026-04-14 17:44:00",
+          "engagement": 256,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/c2f60a22"
+        },
+        {
+          "text": "@Zomato rider was extremely rude, used abusive language when I asked why he was late.",
+          "platform": "Twitter/X",
+          "date": "2026-06-15 21:09:00",
+          "engagement": 252,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/51a928f0"
+        },
+        {
+          "text": "@Zomato the delivery executive was rude and demanded extra tip. When I refused he left the food outside.",
+          "platform": "Twitter/X",
+          "date": "2026-04-06 13:19:00",
+          "engagement": 249,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/eb568474"
+        },
+        {
+          "text": "The Zomato delivery executive asked me to come 500 meters outside to collect my order. I paid for delivery!",
+          "platform": "Twitter/X",
+          "date": "2026-05-07 18:15:00",
+          "engagement": 247,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/c56eb10f"
+        },
+        {
+          "text": "Safety concern: Zomato delivery executive was driving recklessly and arrived smelling of alcohol.",
+          "platform": "Twitter/X",
+          "date": "2026-05-12 11:45:00",
+          "engagement": 246,
+          "sentiment": "Positive",
+          "url": "https://twitterx.com/example/8a58efd5"
+        },
+        {
+          "text": "Zomato delivery partner marked order as delivered but never came to my building. Fake delivery!",
+          "platform": "Twitter/X",
+          "date": "2026-06-05 14:32:00",
+          "engagement": 240,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/3cd72420"
+        }
+      ],
+      "G. Payment/Coupon": [
+        {
+          "text": "Refund from Zomato promised in 5-7 days. It has been 15 days. Where is my money?",
+          "platform": "Twitter/X",
+          "date": "2026-05-16 07:35:00",
+          "engagement": 287,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/0a3c2925"
+        },
+        {
+          "text": "Zomato wallet money deducted but order was cancelled. Balance not restored.",
+          "platform": "Twitter/X",
+          "date": "2026-04-11 23:26:00",
+          "engagement": 278,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/406b853f"
+        },
+        {
+          "text": "Zomato coupon code did not apply at checkout even though it is supposed to be valid.",
+          "platform": "Twitter/X",
+          "date": "2026-05-31 12:56:00",
+          "engagement": 263,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/f32ff303"
+        },
+        {
+          "text": "Zomato coupon code did not apply at checkout even though it is supposed to be valid.",
+          "platform": "Twitter/X",
+          "date": "2026-06-18 17:19:00",
+          "engagement": 249,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/fde613a4"
+        },
+        {
+          "text": "Applied a 50% coupon on Zomato and it showed discount on screen but full amount was charged.",
+          "platform": "Twitter/X",
+          "date": "2026-05-17 21:16:00",
+          "engagement": 238,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/851ab83a"
+        },
+        {
+          "text": "Refund from Zomato promised in 5-7 days. It has been 15 days. Where is my money?",
+          "platform": "Twitter/X",
+          "date": "2026-05-14 14:42:00",
+          "engagement": 237,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/7f91b1da"
+        },
+        {
+          "text": "@Zomato double charged me and my bank confirms 2 deductions. Need immediate refund.",
+          "platform": "Twitter/X",
+          "date": "2026-04-17 15:04:00",
+          "engagement": 233,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/a50c5e8c"
+        },
+        {
+          "text": "@Zomato double charged me and my bank confirms 2 deductions. Need immediate refund.",
+          "platform": "Twitter/X",
+          "date": "2026-06-08 22:09:00",
+          "engagement": 230,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/66d8a3c8"
+        }
+      ],
+      "H. Price/Fee": [
+        {
+          "text": "Zomato is charging a rain surcharge but it is not even raining. Hidden charges everywhere.",
+          "platform": "Twitter/X",
+          "date": "2026-04-09 14:21:00",
+          "engagement": 250,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/a894fcca"
+        },
+        {
+          "text": "Zomato price shown on menu is different from what is charged at checkout. Hidden charges!",
+          "platform": "Twitter/X",
+          "date": "2026-06-08 12:55:00",
+          "engagement": 249,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/0f6d448a"
+        },
+        {
+          "text": "@Zomato please explain why there is a Rs 10 handling fee on top of delivery fee and platform fee?",
+          "platform": "Twitter/X",
+          "date": "2026-05-08 09:54:00",
+          "engagement": 242,
+          "sentiment": "Neutral",
+          "url": "https://twitterx.com/example/4219d189"
+        },
+        {
+          "text": "Delivery fee on Zomato during peak hours is higher than the actual food price. This is robbery.",
+          "platform": "Twitter/X",
+          "date": "2026-06-24 19:10:00",
+          "engagement": 240,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/7bf426d2"
+        },
+        {
+          "text": "Zomato is charging a rain surcharge but it is not even raining. Hidden charges everywhere.",
+          "platform": "Twitter/X",
+          "date": "2026-06-05 13:03:00",
+          "engagement": 220,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/a9412832"
+        },
+        {
+          "text": "@Zomato please explain why there is a Rs 10 handling fee on top of delivery fee and platform fee?",
+          "platform": "Twitter/X",
+          "date": "2026-04-28 23:27:00",
+          "engagement": 214,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/fc0a7492"
+        },
+        {
+          "text": "Zomato price shown on menu is different from what is charged at checkout. Hidden charges!",
+          "platform": "Twitter/X",
+          "date": "2026-06-17 11:53:00",
+          "engagement": 206,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/b4b7fbb6"
+        },
+        {
+          "text": "Delivery fee on Zomato during peak hours is higher than the actual food price. This is robbery.",
+          "platform": "Twitter/X",
+          "date": "2026-06-09 14:35:00",
+          "engagement": 198,
+          "sentiment": "Positive",
+          "url": "https://twitterx.com/example/7d96c044"
+        }
+      ],
+      "I. Other/Emerging": [
+        {
+          "text": "@Zomato restaurant listed as open but not accepting orders. Stop showing ghost restaurants.",
+          "platform": "Twitter/X",
+          "date": "2026-04-28 09:11:00",
+          "engagement": 248,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/d425ad02"
+        },
+        {
+          "text": "Dark pattern on Zomato app — I accidentally bought a subscription I did not want.",
+          "platform": "Twitter/X",
+          "date": "2026-06-19 12:01:00",
+          "engagement": 243,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/7124609c"
+        },
+        {
+          "text": "Zomato pushed 8 promotional notifications today. Please give users the option to opt out.",
+          "platform": "Twitter/X",
+          "date": "2026-04-17 16:09:00",
+          "engagement": 231,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/f93962f0"
+        },
+        {
+          "text": "Zomato pushed 8 promotional notifications today. Please give users the option to opt out.",
+          "platform": "Twitter/X",
+          "date": "2026-06-06 21:40:00",
+          "engagement": 226,
+          "sentiment": "Positive",
+          "url": "https://twitterx.com/example/6a5cc240"
+        },
+        {
+          "text": "The Zomato app does not work on my Android device after the latest update.",
+          "platform": "Twitter/X",
+          "date": "2026-04-21 19:59:00",
+          "engagement": 224,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/3ac08bdb"
+        },
+        {
+          "text": "The Zomato app does not work on my Android device after the latest update.",
+          "platform": "Twitter/X",
+          "date": "2026-06-24 16:54:00",
+          "engagement": 224,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/ea2aebb1"
+        },
+        {
+          "text": "@Zomato the app keeps crashing when I try to track my order. Very buggy.",
+          "platform": "Twitter/X",
+          "date": "2026-05-25 07:05:00",
+          "engagement": 220,
+          "sentiment": "Positive",
+          "url": "https://twitterx.com/example/95d68fe3"
+        },
+        {
+          "text": "@Zomato the app keeps crashing when I try to track my order. Very buggy.",
+          "platform": "Twitter/X",
+          "date": "2026-06-19 07:53:00",
+          "engagement": 217,
+          "sentiment": "Negative",
+          "url": "https://twitterx.com/example/c4db8c19"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+venv/
+env/
+
+# Data - exclude raw scraped data (can be large), keep processed outputs
+data/raw/
+
+# Keep processed data and analytics for Streamlit Cloud
+!data/processed/
+!output/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
