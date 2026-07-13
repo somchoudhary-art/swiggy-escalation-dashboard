@@ -260,8 +260,11 @@ def run_classification(df: pd.DataFrame) -> pd.DataFrame:
     out = PROC_DIR / "classified.parquet"
     df.to_parquet(out, index=False)
 
-    # Also save CSV
-    df.to_csv(PROC_DIR / "classified.csv", index=False, encoding="utf-8-sig")
+    # Also save CSV (skip if file is locked by Excel)
+    try:
+        df.to_csv(PROC_DIR / "classified.csv", index=False, encoding="utf-8-sig")
+    except PermissionError:
+        log.warning("classified.csv is open — CSV save skipped; parquet is the source of truth")
     log.info("Classification done. Saved to %s", out)
     return df
 

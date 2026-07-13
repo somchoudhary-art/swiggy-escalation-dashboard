@@ -221,10 +221,12 @@ def generate_post(brand_key: str, platform: str, bucket: str, month: str) -> dic
     }
 
 
-def generate_dataset() -> pd.DataFrame:
+def _build_rows(platforms_filter=None) -> list:
     rows = []
     for brand_key, platform_vols in VOLUME.items():
         for platform, total_vol in platform_vols.items():
+            if platforms_filter and platform not in platforms_filter:
+                continue
             for month, mix in MONTHLY_MIX.items():
                 n_month = max(1, int(total_vol * mix))
                 bucket_keys   = list(BUCKET_WEIGHTS[brand_key].keys())
@@ -232,10 +234,11 @@ def generate_dataset() -> pd.DataFrame:
                 buckets_drawn = random.choices(bucket_keys, weights=bucket_probs, k=n_month)
                 for bucket in buckets_drawn:
                     rows.append(generate_post(brand_key, platform, bucket, month))
+    return rows
 
-    df = pd.DataFrame(rows)
+
+def _save(df: pd.DataFrame) -> pd.DataFrame:
     df = df.sample(frac=1, random_state=42).reset_index(drop=True)
-
     out = PROC_DIR / "classified.parquet"
     df.to_parquet(out, index=False)
     try:
@@ -243,13 +246,26 @@ def generate_dataset() -> pd.DataFrame:
     except PermissionError:
         alt = PROC_DIR / "classified_new.csv"
         df.to_csv(alt, index=False, encoding="utf-8-sig")
-        log.warning("classified.csv locked (open in Excel?); saved to %s instead", alt)
+        log.warning("classified.csv locked; saved to %s instead", alt)
+    log.info("Dataset: %d rows saved to %s", len(df), out)
+    return df
 
-    log.info("Synthetic dataset: %d rows saved to %s", len(df), out)
+
+def generate_dataset() -> pd.DataFrame:
+    """Full synthetic dataset — all platforms."""
+    df = pd.DataFrame(_build_rows())
+    df["data_source"] = "synthetic"
     print("\n=== Synthetic Dataset Summary ===")
     print(df.groupby(["brand", "platform"]).size().to_string())
-    print("\n--- Bucket distribution ---")
-    print(df.groupby(["brand", "bucket_label"]).size().to_string())
+    return _save(df)
+
+
+def generate_twitter_only() -> pd.DataFrame:
+    """Synthetic Twitter/X data only — used when Reddit/LinkedIn are scraped live."""
+    rows = _build_rows(platforms_filter=["Twitter/X"])
+    df = pd.DataFrame(rows)
+    df["data_source"] = "synthetic"
+    log.info("Synthetic Twitter posts: %d", len(df))
     return df
 
 

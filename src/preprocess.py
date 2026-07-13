@@ -23,6 +23,7 @@ SWIGGY_EXCLUDE = [
 ]
 
 YEAR = date.today().year
+TODAY = date.today()
 
 
 # ── Schema normalisers ─────────────────────────────────────────────────────────
@@ -150,8 +151,9 @@ def filter_zomato(df: pd.DataFrame) -> pd.DataFrame:
 def filter_date_range(df: pd.DataFrame) -> pd.DataFrame:
     if df.empty or "date" not in df.columns:
         return df
+    # Accept Apr–Jun (primary window) plus current month so real scraped posts aren't dropped
     lo = pd.Timestamp(f"{YEAR}-04-01")
-    hi = pd.Timestamp(f"{YEAR}-06-30 23:59:59")
+    hi = pd.Timestamp(TODAY.strftime("%Y-%m-%d") + " 23:59:59")
     has_date = df["date"].notna()
     in_range  = (df["date"] >= lo) & (df["date"] <= hi)
     return df[~has_date | in_range].reset_index(drop=True)
@@ -185,15 +187,27 @@ def build_unified_df() -> pd.DataFrame:
         combined = filter_date_range(combined)
         frames.append(combined)
 
-    df = pd.concat(frames, ignore_index=True)
+    non_empty = [f for f in frames if not f.empty]
+    if not non_empty:
+        log.warning("All raw files were empty — returning empty DataFrame")
+        return pd.DataFrame()
+
+    df = pd.concat(non_empty, ignore_index=True)
+
+    if df.empty or "brand" not in df.columns:
+        log.warning("No usable posts after filtering — returning empty DataFrame")
+        return pd.DataFrame()
 
     # Deduplicate by (brand, platform, text similarity via first 200 chars)
     df["_dedup_key"] = df["brand"] + "|" + df["platform"] + "|" + df["text"].str[:200]
     df = df.drop_duplicates(subset="_dedup_key").drop(columns="_dedup_key")
 
-    # Add month column
-    df["month"] = df["date"].dt.month.map({4: "April", 5: "May", 6: "June"}).fillna("Unknown")
+    # Add month column — extend to cover real scraped posts beyond June
+    MONTH_MAP = {1:"January",2:"February",3:"March",4:"April",5:"May",6:"June",
+                 7:"July",8:"August",9:"September",10:"October",11:"November",12:"December"}
+    df["month"] = df["date"].dt.month.map(MONTH_MAP).fillna("Unknown")
     df["month_num"] = df["date"].dt.month.fillna(0).astype(int)
+    df["data_source"] = "real"
 
     out = PROC_DIR / "unified_raw.parquet"
     df.to_parquet(out, index=False)

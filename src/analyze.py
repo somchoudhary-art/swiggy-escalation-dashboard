@@ -17,8 +17,10 @@ PROC_DIR = BASE_DIR / "data" / "processed"
 OUT_DIR  = BASE_DIR / "output"
 OUT_DIR.mkdir(exist_ok=True)
 
-MONTHS      = ["April", "May", "June"]
-MONTH_ORDER = {"April": 1, "May": 2, "June": 3}
+_ALL_MONTHS  = ["January","February","March","April","May","June",
+                "July","August","September","October","November","December"]
+MONTHS       = ["April", "May", "June", "July"]   # extended to cover real scraped posts
+MONTH_ORDER  = {m: i+1 for i, m in enumerate(_ALL_MONTHS)}
 
 BUCKET_LABELS = {
     "A_Cancellation":      "A. Cancellation",
@@ -101,9 +103,11 @@ def monthly_trend(df: pd.DataFrame) -> dict:
             prev_total = total
             prev_bucket_counts = bucket_counts
 
-        # Biggest increase / decrease Apr→Jun
-        apr = months_data.get("April", {}).get("bucket_counts", {})
-        jun = months_data.get("June",  {}).get("bucket_counts", {})
+        # Biggest increase / decrease Apr → last available month
+        present = [m for m in MONTHS if months_data.get(m, {}).get("total", 0) > 0]
+        end_month = present[-1] if present else "June"
+        apr = months_data.get("April",    {}).get("bucket_counts", {})
+        jun = months_data.get(end_month,  {}).get("bucket_counts", {})
         changes = {
             k: (jun.get(k, 0) - apr.get(k, 0))
             for k in set(list(apr.keys()) + list(jun.keys()))
@@ -224,21 +228,28 @@ def emerging_issues(df: pd.DataFrame) -> list:
                                .to_dict("records"),
             })
 
-    # 2. Biggest MoM spikes (any bucket, either brand)
+    # 2. Biggest MoM spikes (any bucket, either brand) — last 2 available months
+    present_months = [m for m in MONTHS if len(df[df["month"] == m]) > 0]
+    if len(present_months) >= 2:
+        prev_month = present_months[-2]
+        last_month = present_months[-1]
+    else:
+        prev_month, last_month = "May", "June"
+
     for brand in ("swiggy", "zomato"):
         sub = df[df["brand"] == brand]
         for bucket_key, bucket_label in BUCKET_LABELS.items():
             b_df = sub[sub["bucket"] == bucket_key]
-            may_cnt = len(b_df[b_df["month"] == "May"])
-            jun_cnt = len(b_df[b_df["month"] == "June"])
-            growth = safe_pct_change(may_cnt, jun_cnt)
-            if growth and growth > 50 and jun_cnt >= 5:
+            prev_cnt = len(b_df[b_df["month"] == prev_month])
+            last_cnt = len(b_df[b_df["month"] == last_month])
+            growth = safe_pct_change(prev_cnt, last_cnt)
+            if growth and growth > 50 and last_cnt >= 5:
                 issues.append({
                     "issue":      f"{bucket_label} ({brand.title()})",
                     "type":       "Spike",
-                    "total":      jun_cnt,
+                    "total":      last_cnt,
                     "apr_count":  len(b_df[b_df["month"] == "April"]),
-                    "jun_count":  jun_cnt,
+                    "jun_count":  last_cnt,
                     "growth_pct": growth,
                     "brand":      brand,
                     "samples":    [],
